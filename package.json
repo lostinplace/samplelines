@@ -10,11 +10,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "lostinplace",
   "license": "ISC",
   "dependencies": {
     "lodash": "^3.10.1",
     "minimist": "^1.2.0",
     "seedrandom": "^2.4.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostinplace/samplelines.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lostinplace/samplelines/issues"
+  },
+  "homepage": "https://github.com/lostinplace/samplelines#readme"
 }
