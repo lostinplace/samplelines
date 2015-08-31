@@ -1,5 +1,5 @@
 NAME
-       samplelines - sample lines randomly from input
+    samplelines - sample lines randomly from input
 
 SYNOPSIS
     node samplelines [OPTION]... [FILE]
