@@ -1,22 +1,26 @@
-% samplelines(1)
-% Chris Wheeler (cmwhee@gmail.com)
-% September 8, 2015
+NAME
+====
 
-# NAME
-samplelines \- sample lines randomly from input
+samplelines - sample lines randomly from input
 
-# SYNOPSIS
-**samplelines** [**-p** _probability_] [**-s** _seed_] [_file_]
+SYNOPSIS
+========
 
-# DESCRIPTION
+**samplelines** \[**-p** *probability*\] \[**-s** *seed*\] \[*file*\]
+
+DESCRIPTION
+===========
+
 Samplelines is a program that allows you to randomly sample lines from an incoming stream
 
-# OPTIONS
-**-p** | **--probability** [_0-1_]
-:     (required) a number between 0 and 1 indicating that a line be selected
+OPTIONS
+=======
 
-**-s** | **--seed** [_seed_]
-:     a seed for the PRNG
+**-p** | **--probability** \[*0-1*\]  
+(required) a number between 0 and 1 indicating that a line be selected
 
-_file_
-:     a file to read, if file is absent, input is stdin
+**-s** | **--seed** \[*seed*\]  
+a seed for the PRNG
+
+*file*  
+a file to read, if file is absent, input is stdin
