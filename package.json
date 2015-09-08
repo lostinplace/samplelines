@@ -1,6 +1,6 @@
 {
   "name": "samplelines",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "randomly samples lines from a file",
   "bin": {
     "samplelines": "bin/samplelines.js"
@@ -21,6 +21,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lostinplace/samplelines.git"
+  },
+  "man" : "./man/samplelines.1",
+  "scripts":{
+    "builddocs": "pandoc README.md -s -t man > ./man/samplelines.1"
   },
   "bugs": {
     "url": "https://github.com/lostinplace/samplelines/issues"

@@ -1,0 +1,30 @@
+.TH "samplelines" "1" "September 8, 2015" "" ""
+.SH NAME
+.PP
+samplelines \- sample lines randomly from input
+.SH SYNOPSIS
+.PP
+\f[B]samplelines\f[] [\f[B]\-p\f[] \f[I]probability\f[]] [\f[B]\-s\f[]
+\f[I]seed\f[]] [\f[I]file\f[]]
+.SH DESCRIPTION
+.PP
+Samplelines is a program that allows you to randomly sample lines from
+an incoming stream
+.SH OPTIONS
+.TP
+.B \f[B]\-p\f[] | \f[B]\-\-probability\f[] [\f[I]0\-1\f[]]
+(required) a number between 0 and 1 indicating that a line be selected
+.RS
+.RE
+.TP
+.B \f[B]\-s\f[] | \f[B]\-\-seed\f[] [\f[I]seed\f[]]
+a seed for the PRNG
+.RS
+.RE
+.TP
+.B \f[I]file\f[]
+a file to read, if file is absent, input is stdin
+.RS
+.RE
+.SH AUTHORS
+Chris Wheeler (cmwhee\@gmail.com).
