@@ -1,14 +1,15 @@
 {
   "name": "samplelines",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "randomly samples lines from a file",
   "bin": {
     "samplelines": "bin/samplelines.js"
   },
   "preferGlobal": "true",
-  "main": "lib/index.js",
+  "main": "lib/samplelines.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "builddocs": "./builddocs.sh"
   },
   "author": "lostinplace",
   "license": "ISC",
@@ -23,9 +24,6 @@
     "url": "git+https://github.com/lostinplace/samplelines.git"
   },
   "man" : "./man/samplelines.1",
-  "scripts":{
-    "builddocs": "./builddocs.sh"
-  },
   "bugs": {
     "url": "https://github.com/lostinplace/samplelines/issues"
   },
